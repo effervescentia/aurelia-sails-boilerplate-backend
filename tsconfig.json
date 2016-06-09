@@ -1,0 +1,41 @@
+{
+  "version": "1.7.3",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": "src/",
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "noResolve": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "./typings/index.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "./src/controllers/AuthController.ts",
+    "./src/controllers/BookController.ts",
+    "./src/models/User.ts",
+    "./src/policies/jwtAuth.ts",
+    "./src/policies/sessionAuth.ts",
+    "./src/responses/badRequest.ts",
+    "./src/responses/created.ts",
+    "./src/responses/forbidden.ts",
+    "./src/responses/notFound.ts",
+    "./src/responses/ok.ts",
+    "./src/responses/serverError.ts",
+    "./src/services/AuthService.ts",
+    "./src/services/HashService.ts",
+    "./typings/index.d.ts"
+  ]
+}
